@@ -28,6 +28,8 @@ WHEN I click the save button for that timeblock
     - nothing is saved if you dont
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
+    - When the page is refreshed the color coding of red, yellow and green tint based on time will reapply
+    - yellow and dark green indicators of text box modifications will go away.
 THEN the saved events persist
 WHEN you want to reset the day so you can have a clean calendar the following day
     - click the Red reset button and all the information will go away
