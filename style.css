@@ -69,41 +69,16 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
-
 .grayLine {
   background-color: lightgrey;
   padding-top: 2px;
   height: 24px;
 }
-
-.grayLineRight {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-color: black;
-  background-color: lightgrey;
-  padding-top: 2px;
-  height: 24px;
-}
-
-.whiteLineRight {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-color: black;
-  background-color: whitesmoke;
-  padding-top: 2px;
-  height: 24px;
-}
-
 .whiteLine {
   background-color: white;
   padding-top: 2px;
   height: 24px;
 }
-
 .row {
   white-space: none;
   height: 24px;
@@ -126,19 +101,12 @@ textarea {
   padding-right: 10px;
 }
 
-.btn-link{
-  font: black;
-  font-style: bold;
-}
+
 
 .form-group{
   margin: 0px;
 }
 
-tBodyBackground{
-  background-color: lightslategrey;
-  font: white;
-}
 
 
 

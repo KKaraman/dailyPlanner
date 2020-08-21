@@ -21,8 +21,7 @@ $(document).ready(function () {
   $("#day").attr("id", "date");
   $("#date").html(moment().format("LL"));
 
-  console.log("this is the time on the todo: " + todo);
-  // console.log(moment().format("LT"));
+  console.log(moment().format("LT"));
   $("#now").attr("id", "time");
   $("#time").html(moment().format("LT"));
 
@@ -147,7 +146,7 @@ $(document).ready(function () {
   function timeNow(){
           var d = new Date();
       var n = d.getHours();
-      console.log(n);
+      console.log("currently it is the " + n + " o'clock hour.");
       return n;
     }
 
