@@ -15,7 +15,7 @@ WHEN I view the timeblocks for that day
 THEN each timeblock is color coded to indicate whether it is in the past, present, or future
     - if it is in the past, it is tinted red
     - current time block is tinted in yellow
-    - future time blocks are tinted in red
+    - future time blocks are tinted in green
     - additionally the current hour block is displayed in the console log 
     - console log also prints out the time status of each hour block
 WHEN I click into a timeblock
@@ -36,6 +36,6 @@ WHEN you want to reset the day so you can have a clean calendar the following da
 
 
 Link to an image of the app: ./images/dailyPlanner.png
-Link to the app: https://kkaraman.github.io/dailyPlanner/
+Link to the app: [DailyPlanner](https://kkaraman.github.io/dailyPlanner/)
 Link to the code: https://github.com/KKaraman/dailyPlanner
     
